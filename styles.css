@@ -29,12 +29,16 @@
 
 .card-top {
    /* TODO: Add part of your solution here */
+   z-index: 2;
 
 }
 
 .card-bottom {
    /* TODO: Add part of your solution here */
-
+   position: absolute;
+   top : 120px;
+   left: 240px;
+   z-index: 1;
 }
 
 .heart {
@@ -55,10 +59,13 @@
 
 .top-left {
    /* TODO: Add part of your solution here */
+   top: 2px;
+   left: 2px;
 
 }
 
 .bottom-right {
    /* TODO: Add part of your solution here */
-
+   bottom: 2px;
+   right: 2px;
 }
